@@ -13,8 +13,12 @@ html, body {
 
 header {
     background: #5F30E2;
-    padding: 16px;
+    padding: 0.4rem;
     color: white;
+}
+
+header h1 {
+    margin: 1rem 1rem;
 }
 
 .wrapper {
@@ -24,7 +28,7 @@ header {
 }
 
 .wrapper .container {
-    width: 1024px;
+    width: 75vw;
     border-radius: 8px;
     margin: 16px;
     background: #F8F9FA;
@@ -54,7 +58,7 @@ header {
     display: flex;
     padding: 16px;
     flex-direction: column;
-    height: 300px;
+    height: 70vh;
     border-radius: 16px;
 }
 
@@ -69,11 +73,27 @@ header {
     font-weight: lighter;
 }
 
+.form-radio {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-radio ul {
+    list-style: none;
+    margin-left: -2rem;
+}
+
+.form-radio label {
+    margin-bottom: 4px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
 .shadow {
     box-shadow: 0 5px 10px rgba(154, 160, 185, .05), 0 15px 40px rgba(166, 173, 201, .2);
 }
 
-/* input[type=text], input[type=date] {
+input[type=text], input[type=radio] {
     font-family: Raleway, sans-serif;
     background: #F5F1FF;
     border: 2px solid #9475EA;
@@ -81,8 +101,8 @@ header {
     padding: 16px;
     box-sizing: border-box;
     margin-bottom: 8px;
-    font-size: 24px;
-} */
+    font-size: 1rem;
+}
 
 .btn-submit {
     width: fit-content;
@@ -102,7 +122,7 @@ header {
     color: white;
 }
 
-input[type=text], input[type=date], input[type=radio], .btn-submit:focus {
+input[type=text], input[type=radio], .btn-submit:focus {
     outline: none;
 }
 
