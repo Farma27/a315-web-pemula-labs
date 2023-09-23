@@ -73,7 +73,7 @@ header {
     box-shadow: 0 5px 10px rgba(154, 160, 185, .05), 0 15px 40px rgba(166, 173, 201, .2);
 }
 
-input[type=text], input[type=date] {
+/* input[type=text], input[type=date] {
     font-family: Raleway, sans-serif;
     background: #F5F1FF;
     border: 2px solid #9475EA;
@@ -82,7 +82,7 @@ input[type=text], input[type=date] {
     box-sizing: border-box;
     margin-bottom: 8px;
     font-size: 24px;
-}
+} */
 
 .btn-submit {
     width: fit-content;
@@ -102,7 +102,7 @@ input[type=text], input[type=date] {
     color: white;
 }
 
-input[type=text], input[type=date], .btn-submit:focus {
+input[type=text], input[type=date], input[type=radio], .btn-submit:focus {
     outline: none;
 }
 
