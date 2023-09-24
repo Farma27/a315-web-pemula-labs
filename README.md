@@ -5,8 +5,7 @@ Project ini merupakan tugas dari Dicoding Academy pada modul _Belajar Membuat Fr
 + ~~form tambah buku~~
 + list rak buku (sudah dibaca/belum dibaca)
 + form edit buku
-+ form mencari buku
-+ hamburg list untuk memudahkan navigasi
++ ~~form mencari buku~~
 + DOM untuk menambahkan buku
 + DOM untuk mengedit buku
 + DOM untuk menghapus buku + custom dialog
