@@ -3,7 +3,7 @@ Project ini merupakan tugas dari Dicoding Academy pada modul _Belajar Membuat Fr
 
 ## To-do List
 + ~~form tambah buku~~
-+ list rak buku (sudah dibaca/belum dibaca)
++ ~~list rak buku (sudah dibaca/belum dibaca)~~
 + form edit buku
 + ~~form mencari buku~~
 + DOM untuk menambahkan buku
